@@ -20,7 +20,7 @@ gem 'carrierwave',    '~> 1.1'
 gem 'devise',         '~> 4.3'
 gem 'font-awesome-sass'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
-
+gem "bootsnap", require: false
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
